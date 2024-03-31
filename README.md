@@ -11,4 +11,5 @@
 
 `export AWS_SECRET_ACCESS_KEY={your-secret-access-key}`
 
-- Run `terraform apply` to create the infrastructure 
+- Run `terraform apply` to create the infrastructure
+- Run `terraform destroy` to clean up the resources after we are done with it. This will only destroy resources defined in the configuration, and nothing else.
