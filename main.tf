@@ -1,4 +1,11 @@
 terraform {
+  cloud {
+    organization = "atalay-learning"
+    workspaces {
+      name = "learn-tfc-aws"
+    }
+  }
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
