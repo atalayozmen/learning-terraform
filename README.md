@@ -5,11 +5,6 @@
 
 **Deployment**
 
-- Set access key id and secret access key in your terminal which you create from IAM console:
-
-`export AWS_ACCESS_KEY_ID={your-access-key}`
-
-`export AWS_SECRET_ACCESS_KEY={your-secret-access-key}`
-
+- Set access key id and secret access key in your Terraform Cloud organization
 - Run `terraform apply` to create the infrastructure
 - Run `terraform destroy` to clean up the resources after we are done with it. This will only destroy resources defined in the configuration, and nothing else.
